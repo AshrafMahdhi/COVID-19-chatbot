@@ -1,0 +1,49 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "risk",
+         "patterns": ["What is the risk of my child becoming sick with COVID-19", "what id the risk", "risks?"],
+         "responses": ["Based on available evidence, children do not appear to be at higher risk for COVID-19 than adults. While some children and infants have been sick with COVID-19, adults make up most of the known cases to date"],
+         "context_set": ""
+        },
+        {"tag": " protect ",
+         "patterns": ["How can I protect my child from COVID-19 infection?", "How can I protect myself / my family?", ""],
+         "responses": ["The best way to protect yourself is the same as you would against any respiratory infection. Practice good hygiene by: making sure to clean your hands thoroughly for at least 20 seconds with soap and water, or an alcohol-based hand rub\n  cover your nose and mouth when coughing and sneezing with tissue or a flexed elbow\n avoid close contact with anyone with cold or flu-like symptoms."],
+         "context_set": ""
+        },
+        {"tag": "map",
+         "patterns": ["can i see the coronavirus map?", "how much cost the membership", ""],
+         "responses": ["you can visit this link :https://coronavirus.jhu.edu/map.html"],
+         "context_set": ""
+        },
+        {"tag": "symptoms",
+         "patterns": ["","symptoms","symptom", "Are the symptoms of COVID-19 different in children than in adults?"],
+         "responses": ["The symptoms of COVID-19 are similar in children and adults. However, children with confirmed COVID-19 have generally presented with mild symptoms. Reported symptoms in children include cold-like symptoms, such as fever, runny nose, and cough. Vomiting and diarrhea have also been reported. It’s not known yet whether some children may be at higher risk for severe illness, for example, children with underlying medical conditions and special healthcare needs. There is much more to be learned about how the disease impacts children."],
+         "context_set": ""
+        },
+        {"tag": "Spreads",
+         "patterns": ["How It Spreads"],
+         "responses": ["The virus is thought to spread mainly from person-to-person \n Between people who are in close contact with one another (within about 6 feet).\n Through respiratory droplets produced when an infected person coughs or sneezes. ","People are thought to be most contagious when they are most symptomatic (the sickest).","Some spread might be possible before people show symptoms; there have been reports of this occurring with this new coronavirus, but this is not thought to be the main way the virus spreads."],
+         "context_set": ""
+        },
+        {"tag": "hospital",
+         "patterns": ["Is it safe for me to go to a hospital where a COVID-19 case is?"],
+         "responses": ["NSW Health works with its hospitals to maintain high infection control standards. NSW hospitals and clinicians are well trained in caring for people with infectious diseases, and in preventing their transmission to other patients."],
+         "context_set": ""
+        },
+        {"tag": "Prevention",
+         "patterns": ["How can I avoid getting infected?", " What should I do if I have had close contact with someone who has COVID-19"],
+         "responses": ["The virus enters your body via your eyes, nose and/or mouth, so it is important to avoid touching your face with unwashed hands.\n Washing of hands with soap and water for at least 20 seconds, or cleaning hands with alcohol-based solutions, gels or tissues is recommended in all settings \n It is also recommended to stay 1 metre or more away from people infected with COVID-19 who are showing symptoms, to reduce the risk of infection through respiratory droplets. ","Notify public health authorities in your area who will provide guidance on further steps to take. If you develop any symptoms, you should immediately call your healthcare provider for advice, mentioning that you have been in contact with someone with COVID-19."],
+         "context_set": ""
+        }
+
+   ]
+}
